@@ -48,7 +48,8 @@ define(["qlik", "jquery", "./props", "./cdnjs/echarts.min", "text!./initialProps
         },
         support: {
             snapshot: true,
-            export: false
+            export: true,
+            exportData: true
         },
 
 
