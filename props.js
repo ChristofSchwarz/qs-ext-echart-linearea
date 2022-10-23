@@ -95,6 +95,20 @@ define(["jquery"], function ($) {
                         defaultValue: '#19100c',
                         show: function (arg) { return !useTestData(arg) }
                     }, {
+                        label: "Label for X Axis",
+                        type: 'string',
+                        expression: 'optional',
+                        ref: 'pXAxisLabel',
+                        defaultValue: 'Target Value',
+                        show: function (arg) { return !useTestData(arg) }
+                    }, {
+                        label: "Label for Y Axis",
+                        type: 'string',
+                        expression: 'optional',
+                        ref: 'pYAxisLabel',
+                        defaultValue: 'Target Value',
+                        show: function (arg) { return !useTestData(arg) }
+                    }, {
                         type: "boolean",
                         defaultValue: false,
                         ref: "pConsoleLog",

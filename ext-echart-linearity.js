@@ -115,13 +115,21 @@ define(["qlik", "jquery", "./props", "./cdnjs/echarts.min", "text!./initialProps
                 animation: false,
                 xAxis: {
                     type: 'time',
+                    name: layout.pXAxisLabel,
+                    nameLocation: 'middle',
+                    nameGap: 30,
+                    nameTextStyle: { fontSize: 18 },
                     axisLabel: {
                         formatter: (p) => { return p.toFixed() + '' }
                     },
                     min: 0
                 },
                 yAxis: {
-                    type: 'value'
+                    type: 'value',
+                    name: layout.pXAxisLabel,
+                    nameLocation: 'middle',
+                    nameGap: 40,
+                    nameTextStyle: { fontSize: 18 }
                 },
                 tooltip: {
                     formatter: (p, i) => {
