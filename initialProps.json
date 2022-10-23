@@ -1,0 +1,34 @@
+{
+  "qHyperCubeDef": {
+    "qMeasures": [
+      {
+        "qDef": {
+          "qLabel": "Value",
+          "qDef": "Avg(Value)",
+          "cId": "mval"
+        }
+      },
+      {
+        "qDef": {
+          "qLabel": "Lower",
+          "qDef": "Avg(Low)",
+          "cId": "mlow"
+        }
+      },
+      {
+        "qDef": {
+          "qLabel": "Upper",
+          "qDef": "Avg(High)",
+          "cId": "mupp"
+        }
+      },
+      {
+        "qDef": {
+          "qLabel": "Trend",
+          "qDef": "Linest_m(TOTAL Aggr(Avg(Value), Target), Target) * Only(Target) + Linest_b(TOTAL Aggr(Avg(Value), Target), Target)",
+          "cId": "mtrd"
+        }
+      }
+    ]
+  }
+}

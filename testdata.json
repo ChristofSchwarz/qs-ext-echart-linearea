@@ -1,0 +1,23 @@
+[
+  {
+    "target": 25,
+    "value": 42,
+    "lower": 10,
+    "upper": 40,
+    "trend": 42.112635182624
+  },
+  {
+    "target": 260,
+    "value": 260,
+    "lower": 208,
+    "upper": 312,
+    "trend": 259.74351010044
+  },
+  {
+    "target": 444,
+    "value": 430,
+    "lower": 355,
+    "upper": 533,
+    "trend": 430.14385471694
+  }
+]
