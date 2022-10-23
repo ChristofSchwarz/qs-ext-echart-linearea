@@ -1,6 +1,6 @@
-define(["qlik", "jquery", "./props", "./functions", "./cdnjs/echarts.min", "text!./initialProps.json", "text!./testdata.json"
+define(["qlik", "jquery", "./props", "./cdnjs/echarts.min", "text!./initialProps.json", "text!./testdata.json"
     // echarts.min.js from https://www.cdnpkg.com/echarts/file/echarts.min.js/?id=32956
-], function (qlik, $, props, functions, echarts, initialProps, testdata) {
+], function (qlik, $, props, echarts, initialProps, testdata) {
 
     'use strict';
 
@@ -8,7 +8,7 @@ define(["qlik", "jquery", "./props", "./functions", "./cdnjs/echarts.min", "text
     var qext;
 
     $.ajax({
-        url: '../extensions/ext-echart-siemens/ext-echart-siemens.qext',
+        url: '../extensions/ext-echart-linearity/ext-echart-linearity.qext',
         dataType: 'json',
         async: false,  // wait for this call to finish.
         success: function (data) { qext = data; }

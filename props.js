@@ -112,7 +112,7 @@ define(["jquery"], function ($) {
                     {
                         label: function (arg) { return 'Installed extension version ' + qext.version },
                         component: "link",
-                        url: '../extensions/ext-echart-siemens/ext-echart-siemens.qext'
+                        url: '../extensions/ext-echart-linearity/ext-echart-linearity.qext'
                     }, {
                         label: "This extension is free of charge by data/\\bridge, Qlik OEM partner and specialist for Mashup integrations.",
                         component: "text"
@@ -130,7 +130,7 @@ define(["jquery"], function ($) {
                         label: "Open Documentation",
                         component: "button",
                         action: function (arg) {
-                            window.open('https://github.com/ChristofSchwarz/db_ext_master-vis-changer/blob/main/README.md', '_blank');
+                            window.open('https://github.com/ChristofSchwarz/qs-ext-echart-linearity/blob/main/README.md', '_blank');
                         }
                     }
                 ]
