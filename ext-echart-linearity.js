@@ -118,7 +118,7 @@ define(["qlik", "jquery", "./props", "./cdnjs/echarts.min", "text!./initialProps
                     name: layout.pXAxisLabel,
                     nameLocation: 'middle',
                     nameGap: 30,
-                    nameTextStyle: { fontSize: 18 },
+                    nameTextStyle: { fontSize: 14 },
                     axisLabel: {
                         formatter: (p) => { return p.toFixed() + '' }
                     },
@@ -126,10 +126,10 @@ define(["qlik", "jquery", "./props", "./cdnjs/echarts.min", "text!./initialProps
                 },
                 yAxis: {
                     type: 'value',
-                    name: layout.pXAxisLabel,
+                    name: layout.pYAxisLabel,
                     nameLocation: 'middle',
                     nameGap: 40,
-                    nameTextStyle: { fontSize: 18 }
+                    nameTextStyle: { fontSize: 14 }
                 },
                 tooltip: {
                     formatter: (p, i) => {
